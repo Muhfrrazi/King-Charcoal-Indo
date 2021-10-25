@@ -48,8 +48,8 @@ body {
   font-size: 20px;
 }
 .navbar.scrolled {
-  background-color: #282c34;
-  transition: ease-in-out 0.5s;
+  background-color: #222222;
+  transition: ease-in-out 1s;
 }
 
 .header {
@@ -67,6 +67,15 @@ body {
   left: 0;
   top: 0;
 }
+
+.maps-wrapper {
+  max-width: 500px;
+  margin: 30px 0 20px 0;
+}
+.googlemaps {
+  width: 100%;
+}
+
 .description {
   position: absolute;
   opacity: 50%;
@@ -164,6 +173,7 @@ body {
 }
 .contact .form-label {
   color: #fff;
+  margin-top: 20px;
 }
 .footer-dark {
   padding: 30px 0;
