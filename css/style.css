@@ -47,6 +47,10 @@ body {
 .navbar .nav-link {
   font-size: 20px;
 }
+.navbar.scrolled {
+  background-color: #282c34;
+  transition: ease-in-out 0.5s;
+}
 
 .header {
   background-image: url("../img/jumb.jpg");
