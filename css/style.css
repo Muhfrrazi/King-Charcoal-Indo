@@ -11,11 +11,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .navver li:hover a {
   border-bottom: 3px solid #ee4002;
 }
-
 .box-login {
   width: 300px;
   min-height: 200px;
@@ -24,19 +22,16 @@ body {
   padding: 15px;
   box-sizing: border-box;
 }
-
 .box-login h2 {
   text-align: center;
   margin-bottom: 15px;
 }
-
 .input-control {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   box-sizing: border-box;
 }
-
 .box {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -44,16 +39,13 @@ body {
   box-sizing: border-box;
   margin: 10px 0;
 }
-
 .navbar .nav-link {
   font-size: 20px;
 }
-
 .navbar.scrolled {
   background-color: #222222;
   transition: ease-in-out 1s;
 }
-
 .header {
   background-image: url("../img/jumb.jpg");
   background-size: cover;
@@ -61,7 +53,6 @@ body {
   height: 100vh;
   width: 100%;
 }
-
 .overlay {
   position: absolute;
   min-height: 100%;
@@ -69,11 +60,9 @@ body {
   left: 0;
   top: 0;
 }
-
 .card-submit {
   margin: 30px 0 0 0;
 }
-
 .description {
   position: absolute;
   opacity: 50%;
@@ -90,7 +79,6 @@ body {
   background: #ee4002;
   color: #fff;
 }
-
 .about {
   margin: 4em 0;
   padding: 1rem;
@@ -174,19 +162,6 @@ body {
 .modal-body h3 {
   font-size: 24px;
 }
-@media (max-width: 670px) {
-  .modal img {
-    width: 100%;
-  }
-  .btn-modal {
-    font-size: 16px;
-    width: 100%;
-  }
-  .btn-modal-modal {
-    font-size: 18px;
-  }
-}
-
 .whatsapp {
   background-color: #51a438;
   margin: 10px 0 20px 0;
@@ -207,14 +182,12 @@ body {
   color: #ee4002;
   padding-top: 3.5em;
 }
-
 .product img {
   background-color: #fff;
 }
 .produk .row {
   background-color: red;
 }
-
 .contact {
   min-height: 775px;
   padding: 15px;
@@ -233,13 +206,11 @@ body {
   color: #fff;
   margin-top: 10px;
 }
-
 .contact .map-wrapper {
   max-width: 450px;
   max-height: 200px;
   margin-top: 2em;
 }
-
 .maps {
   width: 100%;
   height: 100%;
@@ -249,7 +220,6 @@ body {
   padding: 30px 0;
   background-color: #222222;
 }
-
 .footer-dark .copyright {
   text-align: center;
   padding-top: 10px;
@@ -257,4 +227,19 @@ body {
   color: #fff;
   font-size: 18px;
   margin-bottom: 0;
+}
+@media (max-width: 670px) {
+  .modal img {
+    width: 100%;
+  }
+  .btn-modal {
+    font-size: 16px;
+    width: 100%;
+  }
+  .btn-modal-modal {
+    font-size: 18px;
+  }
+  .navbar img {
+    width: 130px;
+  }
 }
