@@ -174,6 +174,19 @@ body {
 .modal-body h3 {
   font-size: 24px;
 }
+@media (max-width: 670px) {
+  .modal img {
+    width: 100%;
+  }
+  .btn-modal {
+    font-size: 16px;
+    width: 100%;
+  }
+  .btn-modal-modal {
+    font-size: 18px;
+  }
+}
+
 .whatsapp {
   background-color: #51a438;
   margin: 10px 0 20px 0;
