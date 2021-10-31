@@ -135,6 +135,45 @@ body {
 .btn:hover {
   opacity: 1;
 }
+.btn-modal {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #222126;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #ee4002;
+  transition: ease-out 0.3s;
+  font-size: 1.5rem;
+  outline: none;
+  margin: 1rem 0;
+}
+.btn-modal:hover {
+  background-color: #ee4002;
+}
+.btn-modal-modal {
+  border: none;
+  color: #fff;
+  background-color: #222126;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #ee4002;
+  transition: ease-out 0.3s;
+  font-size: 24px;
+  outline: none;
+  margin: 1rem 0;
+}
+.btn-modal-modal:hover {
+  background-color: #ee4002;
+}
+.mopdal-body {
+  text-align: center;
+}
+.modal-body img {
+  position: relative;
+  text-align: center;
+}
+.modal-body h3 {
+  font-size: 24px;
+}
 .whatsapp {
   background-color: #51a438;
   margin: 10px 0 20px 0;
@@ -158,6 +197,9 @@ body {
 
 .product img {
   background-color: #fff;
+}
+.produk .row {
+  background-color: red;
 }
 
 .contact {
