@@ -287,6 +287,10 @@ body {
   left: 18px;
   top: 46px;
 }
+.btn-link:focus {
+  outline: none;
+  box-shadow: none;
+}
 @media (max-width: 670px) {
   .navbar-toggler {
     margin-right: 20px;
@@ -330,6 +334,10 @@ body {
   .btn-link:after {
     top: 12px;
     left: 250px;
+  }
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
   }
   .btn-link:before {
     top: 50px;
