@@ -319,7 +319,6 @@ body {
   }
   .btn-link {
     width: 100%;
-    left: 20px;
   }
   .btn-link p {
     color: #fff;
@@ -327,7 +326,6 @@ body {
   }
   .btn-link:after {
     top: 12px;
-    left: 310px;
   }
   .btn-link:before {
     top: 50px;
