@@ -288,6 +288,9 @@ body {
   top: 46px;
 }
 @media (max-width: 670px) {
+  .navbar-toggler {
+    margin-right: 20px;
+  }
   .modal img {
     width: 100%;
   }
@@ -326,6 +329,7 @@ body {
   }
   .btn-link:after {
     top: 12px;
+    left: 250px;
   }
   .btn-link:before {
     top: 50px;
@@ -333,7 +337,6 @@ body {
   }
   .container {
     width: 100%;
-    padding: 0;
   }
   .container .col-md-6 {
     padding: 15px;
