@@ -321,18 +321,19 @@ body {
     width: 100%;
   }
   .card {
-    width: 100%;
+    width: 110%;
+    text-align: justify;
   }
   .card-header {
     z-index: 2;
-    margin-bottom: 30px;
+    margin-bottom: 37px;
   }
   .btn-link {
     width: 100%;
   }
   .btn-link p {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
   }
   .btn-link:after {
     top: 12px;
@@ -343,7 +344,7 @@ body {
     box-shadow: none;
   }
   .btn-link:before {
-    top: 50px;
+    top: 58px;
     z-index: -1;
   }
   .container {
