@@ -124,7 +124,6 @@ body {
   opacity: 1;
 }
 .btn-modal {
-  width: 100%;
   border: none;
   color: #fff;
   background-color: #222126;
@@ -161,6 +160,10 @@ body {
 }
 .modal-body h3 {
   font-size: 24px;
+}
+.modal .card-body {
+  background-color: #ee4002;
+  color: #fff;
 }
 .whatsapp {
   background-color: #51a438;
@@ -298,12 +301,18 @@ body {
   .navbar-toggler {
     margin-right: 20px;
   }
+  .instagram {
+    margin: 0;
+  }
   .modal img {
     width: 100%;
   }
+  .modal-body .produk {
+    display: flex;
+    justify-content: center;
+  }
   .btn-modal {
-    font-size: 16px;
-    width: 100%;
+    font-size: 12px;
   }
   .btn-modal-modal {
     font-size: 18px;

@@ -165,21 +165,8 @@
     <section class="product" id="product">
         <div>
             <div class="container">
-                <h1 class="our-product text-center">Our Product</h1>
-                <P class="text-center" style="padding-top:10px; padding-bottom: 10px;">
-                    <span style="font-size: 21px;">HALABAN WOOD CHARCOAL</span>
-                    is
-                    charcoal fuel which is
-                    commonly used to burn food
-                    and is made from
-                    hardwood
-                    trees which are widely
-                    distributed in Kalimantan, Indonesia. The advantage of Halaban Charcoal compared to other
-                    charcoal
-                    is that the roasting process is better because the fire burns evenly and perfectly, the smoke
-                    does
-                    not fly, thus improving the quality of the taste of the food
-                </P>
+                <h1 class="our-product text-center">HALABAN WOOD CHARCOAL</h1>
+
                 <div class="row justify-content-center ps-4 pe-4">
                     <div class="col-md-4 mb-3 card-produk">
                         <div class="produk">
@@ -187,9 +174,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#spec-modal">
-                        Read More for Specification & Our Grade
+                <div class="d-grid gap-2 col-4 mx-auto">
+                    <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#desc-modal">
+                        Read More
                     </button>
                 </div>
                 <div class="btn-wrapper">
@@ -280,6 +267,23 @@
     <!-- Akhir Footer -->
 
     <!-- Modal -->
+    <div class="modal fade" id="desc-modal" aria-hidden="true" aria-labelledby="desc-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Description</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/description.png" width="770px" alt="Halaban Wood Charcoal Specification">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-modal-modal" data-bs-target="#spec-modal"
+                        data-bs-toggle="modal">Specification</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="spec-modal" aria-hidden="true" aria-labelledby="spec-modal" tabindex="-1">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
@@ -308,41 +312,32 @@
                     <div class="row justify-content-center ps-4 pe-4">
                         <div class="col-md-4 mb-3">
                             <div class="produk">
-                                <figure class="imghvr-push-up">
-                                    <img src="img/grade A.png" alt="grade A" class="card-img-top">
-                                    <figcaption>
-                                        <h3
-                                            class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle">
-                                            Grade A</h3>
-                                        <!-- <a href=""></a> -->
-                                    </figcaption>
-                                </figure>
+                                <div class="card" style="width: 14rem;">
+                                    <img src="img/grade A.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Grade A</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class=" col-md-4 mb-3">
                             <div class="produk">
-                                <figure class="imghvr-push-up">
-                                    <img src="img/grade B.png" alt="grade B" class="card-img-top">
-                                    <figcaption>
-                                        <h3
-                                            class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle ">
-                                            Grade B</h3>
-                                        <!-- <a href=""></a> -->
-                                    </figcaption>
-                                </figure>
+                                <div class="card" style="width: 14rem;">
+                                    <img src="img/grade B.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Grade B</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <div class="produk">
-                                <figure class="imghvr-push-up">
-                                    <img src="img/grade mix.png" alt="grade Mix (A & B)" class="card-img-top">
-                                    <figcaption>
-                                        <h3
-                                            class="ih-fade-down ih-delay-sm position-absolute top-50 start-50 translate-middle  text-center">
-                                            Grade Mix <br>(A & B)</h3>
-                                        <!-- <a href=""></a> -->
-                                    </figcaption>
-                                </figure>
+                                <div class="card" style="width: 14rem;">
+                                    <img src="img/grade mix.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Grade Mix (A & B)</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
