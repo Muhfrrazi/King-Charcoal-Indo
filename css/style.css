@@ -124,6 +124,8 @@ body {
   opacity: 1;
 }
 .btn-modal {
+  padding: 12px 24px;
+  justify-content: center;
   border: none;
   color: #fff;
   background-color: #222126;
@@ -312,7 +314,7 @@ body {
     justify-content: center;
   }
   .btn-modal {
-    font-size: 12px;
+    font-size: 14px;
   }
   .btn-modal-modal {
     font-size: 18px;
