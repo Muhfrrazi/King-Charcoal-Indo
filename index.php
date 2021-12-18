@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.jpeg">
+    <script src="https://kit.fontawesome.com/6213932414.js" crossorigin="anonymous"></script>
+
+    <title>KING CHARCOAL INDO</title>
+
+</head>
+
+<body id="home" class="container-fixed">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top bgcolor">
+        <div class=" container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpeg" alt="logo" width="180px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="description ">
+                <h1><b>King Charcoal Indonesia</b></h1>
+                <h4><b>We Are The Best Supplier of Wood Charcoal and Briquettes</b></h4>
+                <a href="#product"><button class="btn btn-outline-secondary btn-lg">Our Product</button></a>
+            </div>
+        </div>
+    </header>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h1 class="about-me text-center">About</h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 desc">
+                    <span class="text-justify">
+                        <h1>KING CHARCOAL</h1>
+                        <h4>already has export experience by the owner.</h4><br>
+                    </span>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                    <p>- Focus on Charcoal Products</p>
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                We focus on Charcoal products, with the best production line,
+                                                distribution line and quality
+                                                involved. Started our business in trading the first time, and we
+                                                expanded to become a
+                                                manufacturer with quality products.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <p>- Strategy for Success</p>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                We have a strategy for success, namely by developing a network of
+                                                charcoal farmers throughout
+                                                Indonesia that we manage. And we ensure readiness in our processing
+                                                plants, to be able to
+                                                produce the best products with the best quality.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <p>- Main Concerns</p>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Diligence, smart work and innovative
+                                                are our main concerns so we welcome all brand owners from charcoal
+                                                business to be our business
+                                                partners.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/about.png" alt="">
+                </div>
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12" style="padding-top:3rem ;">
+                    <img src="./img/about.png" class="img-fluid">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Product -->
+    <section class="product" id="product">
+        <div>
+            <div class="container">
+                <h1 class="our-product text-center">HALABAN WOOD CHARCOAL</h1>
+                <div class="row justify-content-center ps-4 pe-4">
+                    <div class="col-md-4 mb-3 card-produk">
+                        <div class="produk">
+                            <img src="img/grade A.png" alt="example-image" class="card-img-top">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-4 col-s-12 mx-auto">
+                    <a href="product.php" class="btn btn-modal">
+                        Read More
+                    </a>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="https://api.whatsapp.com/send?phone=+6281254537545&text=Hai, I want to order charcoal." target="_blank" class="btn whatsapp">
+                        <span class="fa fa-whatsapp"></span>
+                        Order Via Whatsapp
+                    </a>
+                    <a href="https://www.instagram.com/kingcharcoalindo/" target="_blank" class="btn instagram">
+                        <span class="fa fa-instagram"></span>
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Product -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="cont text-center">Contact</h1>
+            <div class="row text-center mb-3">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 form-submit">
+                    <ul class=" list-group">
+                        <li class="list-group-item">Location</li>
+                        <li class="list-group-item">My Office</li>
+                        <li class="list-group-item">Barabai, Hulu Sungai Tengah</li>
+                        <li class="list-group-item">South Borneo, Indonesia</li>
+                    </ul>
+                    <div class="map-wrapper">
+                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63772.454830553404!2d115.34679494598134!3d-2.5785922734142814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de569543438ad33%3A0xe4a4157f52657414!2sBarabai%2C%20Kabupaten%20Hulu%20Sungai%20Tengah%2C%20Kalimantan%20Selatan!5e0!3m2!1sid!2sid!4v1635209840024!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 form-submit">
+                    <div class="card-form text-white card-submit" style="background-color: #222222;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Contact Me</h5>
+                        </div>
+                    </div>
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Thank you!</strong> We have received your message.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form name="King-Contact-Form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Message</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
+                        </div>
+                        <button type="submit" class="btn text-light btn-kirim" style="background-color: #ee4002;">Submit</button>
+
+                        <button class="btn btn-primary btn-loading d-none" type="button" disabled style="background-color: #ee4002;">
+                            <span class=" spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <p class="copyright">King Charcoal Indonesia © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyYuteteOjhuJMTEvK9ggWYe2InA04mOikS_9GnfgOOARGjOPUxqj1GtwZ0JdPGrFys/exec'
+        const form = document.forms['King-Contact-Form'];
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            // ketika tombol submit diklik
+            //tampilkan tombol loading, hilangkan tombol kirim
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    // tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+
+                    // tampilkan alert
+                    myAlert.classList.toggle('d-none');
+                    // reset form
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+    <script>
+        $(window).scroll(function() {
+            $('.navbar').toggleClass('scrolled', $(this).scrollTop() > 300);
+        });
+    </script>
+</body>
+
+
+</html>
